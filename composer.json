@@ -1,0 +1,19 @@
+{
+    "name": "whats-app/chat-api",
+    "description": "A library for dealing with chat-api resources that deals with whatsapp API",
+    "authors": [
+      {
+        "name": "Mohamed Faesal",
+        "email": "mohamed.feasal@gmail.com"
+      }
+    ],
+    "keywords": ["chat-api", "library", "WhatsApp", "api", "messages"],
+    "require": {
+      "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "ChatApi\\": "src/"
+      }
+    }
+}
