@@ -1,6 +1,6 @@
 <?php
 
-namespace ChatApi/Entity;
+namespace ChatApi\Entity;
 
 /**
  * Authentication class entity that contains chat api credentials
