@@ -27,6 +27,6 @@ class Authentication
   public function __construct(string $token, string $url)
   {
     $this->token = $token;
-    $this->url   = $url;
+    $this->url   = trim($url);
   }
 }
